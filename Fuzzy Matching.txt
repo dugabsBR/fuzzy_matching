@@ -1,0 +1,17 @@
+Fuzzy Matching
+
+
+INTRODUÇÃO
+
+Quando precisamos realizar um processo de correspondência entre objetos iguais, mas que estão dispostos em fontes diferentes, em um
+mundo ideal é que tenha um código único para cada objeto. Entretanto, no mundo real nem sempre isso acontece e muitas vezes nem 
+código de idenficação (ID) tem. O que nós resta é tentar fazer a correspondência pelo nome do objeto e é ai que os problemas começam
+a aparecer, os nomes podem vir com algum erro de digitação (principalmente, quando é um usuário que o insere), com abreviações, com ou
+sem acento ou até mesmo com alguma grafia diferente.
+
+Uma solução para este problema é o conceito de Fuzzy Matching, em uma tradução livre Correspondência Difusa. O processo consiste em
+realizar a limpeza do nome, retirando os acentos, os caracteres especiais e os possíveis excessos de espaço. Tal tarefa pode ser rea-
+lizada tanto na programação com R e Python, que tem bibliotecas específicas para isso, por exemplo: a fedmatch no R (depois colocar 
+a biblioteca correspondente em Python). Posteriormente, é a etapa para seguir o conceito do Fuzzy Matching que, basicamente, é de calcu-
+lar a "distancia" númerica entre cada comparação de string em potencial e, em seguida, para cada string do conjunto de dados correto,
+depois escolher a string "mais próxima".
