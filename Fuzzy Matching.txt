@@ -15,3 +15,12 @@ lizada tanto na programação com R e Python, que tem bibliotecas específicas p
 a biblioteca correspondente em Python). Posteriormente, é a etapa para seguir o conceito do Fuzzy Matching que, basicamente, é de calcu-
 lar a "distancia" númerica entre cada comparação de string em potencial e, em seguida, para cada string do conjunto de dados correto,
 depois escolher a string "mais próxima".
+
+
+****Links****
+https://www.statology.org/fuzzy-matching-in-r/#:~:text=Often%20you%20may%20want%20to,function%20from%20the%20fuzzyjoin%20package
+https://cran.r-project.org/web/packages/fedmatch/vignettes/Fuzzy-matching.html
+https://statisticsglobe.com/fuzzy-matching-r
+https://cran.r-project.org/web/packages/fedmatch/vignettes/Using-clean-strings.html
+https://cran.r-project.org/web/packages/fedmatch/vignettes/Intro-to-fedmatch.html
+https://www.geeksforgeeks.org/fuzzywuzzy-python-library/#:~:text=FuzzyWuzzy%20is%20a%20library%20of,calculate%20the%20differences%20between%20sequences.
